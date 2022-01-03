@@ -1,0 +1,87 @@
+*{
+  margin:0px;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+}
+body{
+  background-image: url(img/background.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.contenitore{
+  width: 850px ;
+  height: 580px;
+  margin-top: 25px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: rgba(0,0,0,0.5);
+  border-radius: 10px;
+}
+header{
+  text-align: center;
+  padding-top: 60px;
+}
+.logo{
+  width: 180px;
+  height: 82px;
+}
+header>div{
+  color: #24d000;
+  font-weight: 1000;
+  font-size: 12px;
+  margin-bottom: 5px;
+}
+nav{
+  background-color: #24d000;
+  text-align: center;
+  height: 35px;
+  line-height: 35px;
+}
+nav>button{
+  font-size: 9px;
+  display: inline-block;
+  vertical-align: middle;
+  line-height: normal;
+}
+.monopattino{
+  color: white;
+  display: inline-block;
+  font-size: 15px;
+}
+section>input{
+  width: 9px;
+  height: 9px;
+  margin-left: 5px;
+}
+.descrizione{
+  font-size: 12px;
+  margin-top: 5px;
+  color: #c9c9c9;
+}
+.descrizione:first-of-type::before{
+  content: "\2192";
+}
+header, nav, main{
+  width: 80%;
+  margin: auto;
+}
+.batteria_fede, .batteria_gino, .batteria_mike{
+  height: 20px;
+  border-radius: 5px;
+  margin-top: 2px;
+}
+.batteria_gino{
+  width: 250px;
+  background-color: #ffbe48;
+}
+.batteria_mike{
+  width: 450px;
+  background-color: #20c320;
+}
+.batteria_fede{
+  width: 100px;
+  background-color: #d54848;
+}
+section{
+  margin-top: 15px;
+}
